@@ -116,6 +116,14 @@ grep {pat} {fn}     # 在文件中查找出现过 pat 的内容
 grep -r {pat} .     # 在当前目录下递归查找所有出现过 pat 的文件内容
 stat {fn}           # 显示文件的详细信息
 od -t oCc  {fn}  #以8进位列出储存值与ASCII的对照表
+选项或参数：
+-t ：后面可以接各种“类型 （TYPE）”的输出，例如：
+a ：利用默认的字符来输出；
+c ：使用 ASCII 字符来输出
+d[size] ：利用十进制（decimal）来输出数据，每个整数占用 size Bytes ；
+f[size] ：利用浮点数值（floating）来输出数据，每个数占用 size Bytes ；
+o[size] ：利用八进位（octal）来输出数据，每个整数占用 size Bytes ；
+x[size] ：利用十六进制（hexadecimal）来输出数据，每个整数占用 size Bytes ；
 
 
 ##############################################################################
